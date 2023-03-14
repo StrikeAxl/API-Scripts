@@ -7,8 +7,8 @@ token_url = "https://app.practicepanther.com/oauth/token"
 #callback url specified when the application was defined
 callback_uri = "https://localhost:8000"
 #client (application) credentials
-client_id = '18a8f1d9-5b2d-491d-bc7c-679edd5650df'
-client_secret = '3998ae2f-2b55-42a0-8030-c64976fb787e'
+client_id = ''
+client_secret = ''
 #step A - simulate a request from a browser on the authorize_url - will return an authorization code after the user is
 # prompted for credentials.
 authorization_redirect_url = authorize_url + '?response_type=code&client_id=' + client_id + '&redirect_uri=' + callback_uri + '&state=random'
